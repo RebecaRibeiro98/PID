@@ -7,7 +7,7 @@ import math
 
 
 kp = 1
-ki = 1
+ki = 0.01
 kd = 1
 odom = Odometry()
 scan = LaserScan()
